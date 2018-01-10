@@ -67,3 +67,4 @@ sudo docker run --name ##NAME_OF_YOUR_DOCKER_CONTAINER## -d -p 8082:80 -v ##HOST
 <b>Command Example:</b>
 sudo docker run --name apache_ins -d -p 8082:80 -v /var/www/kaushal:/var/www kaushal_nginx
 </pre>
+sudo docker run -v /var/www/docker/Docker-Centos-Nginx-PHP/:/var/www/ --name kevindockernginxphpcontainer -d -p 8080:80 kevindockernginxphp
